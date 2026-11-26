@@ -2,7 +2,7 @@
 
 ## O meni
 - Ja (Lino) nisam programer. Objašnjavaj jednostavno i na hrvatskom.
-- Aplikacija je za fitness trenericu Ninu. Plan projekta je u PLAN.md.
+- Aplikacija je za fitness trenericu Ninu. Plan projekta je u plan.md.
 
 ## Pravila rada
 - Radi SAMO ono što tražim. Ne dodaji funkcije, ne "poboljšavaj" usput i ne mijenjaj datoteke koje nisam spomenuo.

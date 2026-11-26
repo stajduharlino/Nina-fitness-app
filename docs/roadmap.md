@@ -6,7 +6,7 @@ Detalji i uvjeti završetka svake faze su u `plan.md`.
 |---|---|---|
 | 0 | Potvrda zahtjeva i opsega | Gotovo |
 | 1 | Struktura projekta i GitHub | Gotovo |
-| 2 | Projektni dokumenti i dizajn | U tijeku: dokumenti gotovi, dizajn čeka logo, boje i fotografiju |
+| 2 | Projektni dokumenti i dizajn | Gotovo (naslovnica, popis klijenata, profil s modulima, portal i probne komponente kao prototipi) |
 | 3 | Baza i prijava | Nije započeto |
 | 4 | Klijenti i postavke modula | Nije započeto |
 | 5 | Profil klijenta | Nije započeto |
