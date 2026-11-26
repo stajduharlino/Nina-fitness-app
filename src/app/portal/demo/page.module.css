@@ -1,0 +1,287 @@
+.page {
+  max-width: 560px;
+  margin: 0 auto;
+  padding: 1.25rem 1rem 3rem;
+  min-height: 100svh;
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--primary);
+}
+
+.title {
+  margin: 0.5rem 0 0;
+  font-family: var(--font-serif);
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+
+.lead {
+  margin: 0.3rem 0 1.5rem;
+  color: var(--text-muted);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.h2 {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--primary);
+}
+
+/* Graf */
+.chart {
+  margin: 0;
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid rgba(245, 240, 242, 0.08);
+  border-radius: 16px;
+}
+
+.chartHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.chartTitle {
+  font-weight: 600;
+}
+
+.chartValue {
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  color: var(--primary);
+}
+
+.chartDiff {
+  margin: 0.1rem 0 0.5rem;
+  font-size: 0.85rem;
+  color: var(--success);
+}
+
+.svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gridLine {
+  stroke: rgba(245, 240, 242, 0.12);
+  stroke-width: 1;
+}
+
+.line {
+  stroke: var(--primary);
+  stroke-width: 2.5;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.dotPoint {
+  fill: var(--bg);
+  stroke: var(--primary);
+  stroke-width: 2;
+}
+
+.axisText {
+  fill: rgba(245, 240, 242, 0.6);
+  font-size: 10px;
+}
+
+.axisNote {
+  margin: 0.25rem 0 0;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Trening */
+.workout {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding: 1.1rem;
+  background: var(--surface);
+  border: 1px solid rgba(245, 240, 242, 0.08);
+  border-radius: 16px;
+}
+
+.workoutHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+
+.exName {
+  margin: 0;
+  font-family: var(--font-serif);
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.exMeta {
+  margin: 0.2rem 0 0;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.done {
+  flex: none;
+  padding: 0.25rem 0.7rem;
+  border-radius: 999px;
+  background: rgba(76, 176, 122, 0.18);
+  color: var(--success);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.optional {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+.sets {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.setRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem 0.75rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(245, 240, 242, 0.08);
+}
+
+.setNo {
+  grid-column: 1 / -1;
+  font-weight: 600;
+}
+
+.prev {
+  grid-column: 1 / -1;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.field,
+.noteField {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.fieldLabel {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.field input,
+.noteField textarea {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 0 0.8rem;
+  background: var(--bg);
+  border: 1px solid rgba(245, 240, 242, 0.15);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.noteField textarea {
+  padding: 0.7rem 0.8rem;
+  resize: vertical;
+}
+
+.field input::placeholder {
+  color: rgba(245, 240, 242, 0.35);
+}
+
+.field input:focus-visible,
+.noteField textarea:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 1px;
+}
+
+.primaryBtn,
+.secondaryBtn {
+  min-height: 48px;
+  padding: 0 1.6rem;
+  border-radius: 999px;
+  font-family: inherit;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.primaryBtn {
+  background: var(--primary);
+  border: 1px solid var(--primary);
+  color: var(--bg);
+  font-weight: 600;
+}
+
+.secondaryBtn {
+  align-self: flex-start;
+  background: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+}
+
+.primaryBtn:focus-visible,
+.secondaryBtn:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 3px;
+}
+
+/* Modal (native dialog) */
+.dialog {
+  width: min(92vw, 520px);
+  padding: 1.25rem;
+  background: var(--surface);
+  color: var(--text);
+  border: 1px solid rgba(245, 240, 242, 0.15);
+  border-radius: 16px;
+}
+
+.dialog[open] {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.dialog::backdrop {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.video {
+  aspect-ratio: 16 / 9;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  text-align: center;
+  background: var(--bg);
+  border: 1px dashed rgba(245, 240, 242, 0.25);
+  border-radius: 12px;
+  color: var(--text-muted);
+}
