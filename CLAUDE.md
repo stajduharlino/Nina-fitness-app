@@ -23,4 +23,7 @@
 - Ne pokreći destruktivne naredbe (brisanje, git reset --hard, force push) bez mog odobrenja.
 
 ## Tehnologija
-- [Ovo će Claude upisati nakon planiranja: framework, kako pokrenuti, kako testirati.]
+- Next.js (App Router) + TypeScript. Planirano: Supabase (prijava, baza, RLS) i Vercel.
+- Pokretanje: `npm install`, zatim `npm run dev` (http://localhost:3000).
+- Provjera koda: `npm run lint` i `npm run build`. Automatskih testova još nema.
+- Dokumenti: `plan.md`, `docs/roles.md`, `docs/modules.md`, `docs/data-model.md`, `docs/roadmap.md`, `docs/open-questions.md`.
